@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <!-- Create a simple event handler that causes 
+     the text inside the button to change when its clicked on
+     and changes back when its clicked back.-->
+     <script> 
+    
+function myFunction() {
+  var x = document.getElementById("btns");
+  if (x.innerHTML === "click me!") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "click me!";
+  }
+}
+</script>
+    </script>
+
+<button id="btns" onclick="myFunction()">click me </button>
+    </body>
+    </html>
